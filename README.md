@@ -4,4 +4,5 @@ projeto agrinho sobre agro forte e futuro sustentavel
 # Objetivos 
 Fazer com que as pessoas entendam a importancia sobre agro forte e futuro sustentavel.
 
+# Recusrsos tecnicos
 
