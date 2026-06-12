@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Agro Sustentável - Futuro do Campo</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body, html {
+        height: 100%;
+    }
+
+    /* TELA DE ENTRADA */
+    #telaEntrada {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://images.unsplash.com/photo-1500595046743-cd271d694d30');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
+    #telaEntrada h1 {
+        font-size: 40px;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    #telaEntrada p {
+        margin-top: 10px;
+        font-size: 18px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        background: green;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: darkgreen;
+    }
+
+    /* SITE PRINCIPAL */
+    #site {
+        display: none;
+        min-height: 100vh;
+        background-image: url('https://images.unsplash.com/photo-1464226184884-fa280b87c399');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 40px;
+    }
+
+    .caixa {
+        background: rgba(0,0,0,0.6);
+        padding: 20px;
+        border-radius: 15px;
+        max-width: 800px;
+    }
+
+    h2 {
+        color: #7CFC00;
+        margin-bottom: 10px;
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- TELA DE ENTRADA -->
+<div id="telaEntrada">
+    <h1>Agro Forte, Futuro Sustentável 🌱</h1>
+    <p>Equilíbrio entre produção e meio ambiente</p>
+    <button onclick="entrar()">Entrar no site</button>
+</div>
+
+<!-- SITE PRINCIPAL -->
+<div id="site">
+    <div class="caixa">
+        <h2>🌾 Bem-vindo ao Agro do Futuro</h2>
+        <p>
+            O agro moderno busca unir tecnologia, produtividade e respeito à natureza. 
+            A sustentabilidade é o caminho para garantir alimentos hoje sem comprometer o amanhã.
+        </p>
+
+        <br>
+
+        <h2>🌎 Sustentabilidade</h2>
+        <p>
+            Uso consciente da água, preservação do solo e redução de impactos ambientais.
+        </p>
+
+        <br>
+
+        <h2>🚜 Produção Inteligente</h2>
+        <p>
+            Máquinas modernas, agricultura de precisão e inovação no campo.
+        </p>
+
+        <nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#tecnologia">Tecnologia</a>
+  <a href="#sustentabilidade">Sustentabilidade</a>
+  <a href="#futuro">Futuro</a>
+</nav>
+
+<section id="sobre">
+  <h2>O Novo Agro🚜</h2>
+  <div class="card">
+    O agro do futuro não é apenas produção em escala, mas sim um sistema inteligente que respeita a natureza.
+    Ele une ciência, inovação e consciência ambiental para alimentar o mundo sem destruir o planeta.
+  </div>
+</section>
+
+se<ction id="tecnologia">
+  <h2>🌾 Tecnologia no Campo</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Drones Agrícolas</h3>
+      Monitoram lavouras e reduzem o uso de agrotóxicos.
+    </div>
+    <div class="card">
+      <h3>IA no Plantio</h3>
+      Sistemas inteligentes analisam solo e clima.
+    </div>
+    <div class="card">
+      <h3>Automação Rural</h3>
+      Máquinas autônomas aumentam a eficiência da produção.
+    </div>
+  </div>
+</section>
+    </div>
+</div>
+
+</script>
+
+</body>
+</html>
